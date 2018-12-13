@@ -1,0 +1,10 @@
+{
+  "include": [
+    "js/**/*.ts"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target" : "es5",
+    "allowJs": true
+  }
+}

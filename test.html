@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <input type="text" name="test1">
+    <input type="text" name="test2">
+</body>
+<script src="formCheck.js"></script>
+<script>
+    var param = {
+        test1 : {
+            value : '',
+            reg : /[0-9]/ig,
+            required: true
+        },
+        test2 : {
+            value : '',
+            required: false
+        }
+    }
+    var test = new ObjectCheck(param);
+</script>
+</html>
